@@ -6,4 +6,4 @@ for i in range(qtde_entradas):
     altura = float(input("Digite a altura: "))
     soma += altura
     
-print("A média das alturas é: ", soma/qtde_entradas)
+print("A média das alturas é: ", round(soma/qtde_entradas, 2))
